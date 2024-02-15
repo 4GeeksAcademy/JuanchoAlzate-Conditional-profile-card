@@ -33,14 +33,14 @@ function render(variables = {}) {
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
             ${cover}
           <img src="${variables.avatarURL}" class="photo" />
-          <h1>Lucy Boilett</h1>
-          <h2>Web Developer</h2>
-          <h3>Miami, USA</h3>
+          <h1>Juan Alzate</h1>
+          <h2>Ing. Instrumentacion y Control</h2>
+          <h3>Medellin, Colombia</h3>
           <ul class="position-right">
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/school/4geeksacademy"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/JuanchoAlzate"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/JuanchoAlzate"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/school/JuanchoAlzate"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/JuanchoAlzate"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
@@ -54,9 +54,11 @@ window.onload = function() {
     // if includeCover is true the algorithm should show the cover image
     includeCover: true,
     // this is the image's url that will be used as a background for the profile cover
-    background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
+    background:
+      "https://micarrerauniversitaria.com/wp-content/uploads/2018/02/ent-software-businessman-ts-100539050-primary.idge_.jpg",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL:
+      "https://us.123rf.com/450wm/lembergvector/lembergvector1512/lembergvector151200067/49923679-concepto-de-ingeniero-de-software-con-soluciones-de-dise%C3%B1o-optimizaci%C3%B3n-respuesta-y-desarrollo.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
